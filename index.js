@@ -9,7 +9,6 @@ const db =  mysql2.createConnection({
     database: 'connect',
   });
   
-
   app.post('/createTablesAndData', async (req, res) => {
     try {
       // Create tables
